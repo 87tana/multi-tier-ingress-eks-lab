@@ -2,6 +2,7 @@ apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: tannaz-ingress
+  namespace: ci-tannaz
 spec:
   ingressClassName: nginx
   rules:
