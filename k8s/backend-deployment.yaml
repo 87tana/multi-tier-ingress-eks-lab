@@ -2,7 +2,6 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: tannaz-deploy-backend
-  namespace: tannaz-2tier
   labels:
     app: backend
 spec:
